@@ -1,0 +1,71 @@
+:root {
+  --accent: #FB6F2C;
+  --shape: var(--r-small);
+  --min-shape: var(--min-r-small);
+}
+
+button {
+  background: #FB6F2C !important;
+}
+
+h1:not(.block-card),
+h2:not(.block-card),
+h3:not(.block-card) {
+  font-family: 'Albert Sans Light' !important;
+  font-weight: 100 !important;
+}
+
+p:not(.block-card),
+input,
+input::placeholder,
+.share-box-content,
+.mobile-nav-overlay a,
+textarea,
+h3.t-1.small-size,
+.display-options .display-style li,
+.pricing-benefits li,
+.price-title span {
+  font-family: 'Albert Sans Light' !important;
+}
+
+header>nav>ul>li>a,
+button,
+.page-list {
+  font-family: 'Albert Sans Light' !important;
+}
+
+.footer-card ul>li>a,
+.footer-card .footer-bottom>.footer-bottom-right>a,
+.announcement-bar-block>a {
+  font-family: 'Albert Sans Light' !important;
+}
+
+button,
+.pricing-box .pricing-container-small .pricing-section>.tier.popular-price>.pricing-details>a button {
+  color: var(--c-dark) !important;
+}
+
+h1 {
+  letter-spacing: -0.03em !important;
+}
+
+h2 {
+  letter-spacing: -0.02em !important;
+}
+
+h3 {
+  letter-spacing: -0.015em !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .w-boxed {
+    max-width: 1200px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .w-boxed {
+    width: 100%;
+    max-width: 100%;
+  }
+}
